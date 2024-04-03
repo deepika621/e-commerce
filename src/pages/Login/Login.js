@@ -2,9 +2,10 @@ import "./Login.css";
 
 function Login(){
     return(
-        <div className="container">
-            <h3>Please Log In.</h3>
+      <div className="Login">
+        <h3>Please Log In.</h3>
             <hr />
+        <div className="container">
                 
       <form action="">
         <div className="mb-3">
@@ -19,10 +20,11 @@ function Login(){
           </label>
           <input type="password" className="form-control"/>
         </div>
-        <button className="btn btn-primary">
+        <button className="float-end btn btn-primary">
           Log In
         </button>
     </form>
+    </div>
     </div>
     )
 
