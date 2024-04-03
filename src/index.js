@@ -8,13 +8,15 @@ import 'bootstrap/dist/js/bootstrap';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Register from './pages/Register/Register';
+import Login from './pages/LogIn/LogIn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element= {<Home/>}></Route>
-      <Route path='/register' element= {<Register/>}></Route>\
+      <Route path='/register' element= {<Register/>}></Route>
+      <Route path='/login' element= {<Login/>}></Route>
     </Routes>
   </BrowserRouter>
 );
