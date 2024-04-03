@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap';
 import reportWebVitals from './reportWebVitals';
 //import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //import Register from './pages/Register/Register';
-import Login from './pages/LogIn/LogIn';
+import Login from './pages/Login/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
